@@ -1,0 +1,101 @@
+header {
+    padding: 0;
+    margin: 0;
+    position: sticky;
+    top: 0;
+    background-color: $colorCabecera;
+
+    .encabezado {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        
+        .encabezado__contenedorLogos {
+            position: relative;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            height: 100px;
+            width: 30%;
+            justify-content: start;
+            padding-left: 5vh;
+            
+            .contenedorLogos__enlace {
+                position: relative;
+                display: flex;
+                align-items: center;
+                height: 100px;
+                
+                .contenedorLogos__logo {
+                    display: flex;
+                }
+                
+                .contenedorLogos__texto {
+                    display: flex;
+                    height: 100%;
+                    align-items: center;
+                    padding-left: 5px;
+                    
+                    .logo__encabezadoImagenTexto {
+                        height: 70%;
+                        padding-left: 5px;
+                    }
+                }
+            }
+        }
+        
+        .encabezado__menu {
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: end;
+            background-color: $colorCabecera;
+            
+            .menu__botonDesplegable {
+                display: none;
+            }
+            
+            .menu__listado {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                list-style-type: none;
+                text-align: center;
+                padding: 1rem;
+                margin: 0;
+
+                .listado__items {
+                    padding: 1rem;
+                    margin: 0;
+                    display: flex;
+                    justify-content: space-around;
+                    text-decoration: none;
+                    font-size: 16px;
+                    font-weight: bold;
+                    color: $colorTextoCabecera;
+                    background-color: $colorCabecera;
+                    border: none;
+
+                    .items__boton {
+                        width: 20px;
+                        height: 20px;
+                    }
+
+                    
+
+                    &:hover {
+                        color: $colorTextoCabeceraHover;
+                    }
+                }
+
+                .oculto {
+                    display: none;
+                }
+            }
+        }
+    }
+}

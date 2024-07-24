@@ -1,0 +1,42 @@
+@media (max-width:800px) {
+    header {
+        .encabezado {
+            justify-content: space-between;
+
+
+            .encabezado__menu {
+
+                .menu__botonDesplegable {
+                    display: flex;
+                    background-color: $colorCabecera;
+                    border: none;
+                    width: 30px;
+                    height: 30px;
+                    margin-right: 20px;
+
+                    .botonDesplegable__imagen {
+                        width: 100%;
+                    }
+                }
+
+                .menu__listado {
+                    display: none;
+                    flex-direction: column;
+                    position: absolute;
+                    background-color: $colorCabecera;
+                    top: 0;
+                    border-bottom-left-radius: 10px;
+                    border-bottom-right-radius: 10px;
+
+                    .listado__items {
+                        font-size: 14px;
+                    }
+
+                    .oculto {
+                        display: flex;
+                    }
+                }
+            }
+        }
+    }
+}
