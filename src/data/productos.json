@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "nombre": "Bolsón de Verduras",
+        "precio": 9500,
+        "descripcion":  "Las variedades del bolsón están sujetas a modificaciones por problemas de cosecha, logística o estación. El bolsón trae aproximadamente un total de 8-9 variedades y pesa aproximadamente 6-7kgs. Quienes retiren el bolsón y tengan bolsa de la entrega anterior les pedimos que la traigan. En caso de no traerla o comprar por primera vez el costo de la bolsa es de $200. Importante: Indicanos de manera numérica la cantidad de bolsones de verduras en tu pedido.",
+        "posibles_variedades":{
+            "encabezado":"Posibles variedades del bolsón:",
+            "variedad1":"Espinaca",
+            "variedad2":"Zapallitos",
+            "variedad3":"Lechuga",
+            "variedad4":"Batatín",
+            "variedad5":"Ají Morrón",
+            "variedad6":"Rúcula",
+            "variedad7":"Puerro",
+            "variedad8":"Apio",
+            "variedad9":"Perejil",
+            "variedad10":"Ajo"
+        },
+        "stock": 1,
+        "imagen": "media/images/camiseta_deportiva.png"
+    },
+    {
+        "id": 2,
+        "nombre": "Zapatillas de running",
+        "descripcion": "Zapatillas ligeras y cómodas, diseñadas para correr largas distancias.",
+        "stock": 0,
+        "imagen": "media/images/zapatillas_running.png"
+    },
+    {
+        "id": 3,
+        "nombre": "Mochila de senderismo",
+        "descripcion": "Mochila espaciosa y resistente al agua, perfecta para excursiones de un día.",
+        "stock": 1,
+        "imagen": "media/images/mochila_senderismo.png"
+    },
+    {
+        "id": 4,
+        "nombre": "Botella térmica",
+        "descripcion": "Botella de acero inoxidable que mantiene las bebidas calientes o frías por horas.",
+        "stock": 0,
+        "imagen": "media/images/botella_termica.png"
+    },
+    {
+        "id": 5,
+        "nombre": "Auriculares inalámbricos",
+        "descripcion": "Auriculares con cancelación de ruido y conectividad Bluetooth.",
+        "stock": 1,
+        "imagen": "media/images/auriculares_inalambricos.png"
+    }
+]

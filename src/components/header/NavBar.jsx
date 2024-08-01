@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
 const NavBar = () => {
-
     const [menuVisible, setMenuVisible] = useState(window.innerWidth > 800);
 
     const abrirMenu = () => {
@@ -10,7 +9,9 @@ const NavBar = () => {
     };
 
     const cerrarMenu = () => {
-        setMenuVisible(false);
+        if (window.innerWidth < 800) {
+            setMenuVisible(false);
+        }
     };
 
     useEffect(() => {
@@ -30,27 +31,33 @@ const NavBar = () => {
     }, []);
 
     return (
-        <>
-            <div className="encabezado__menu">
-            <button className="menu__botonDesplegable">
-                <img onClick={abrirMenu} className='botonDesplegable__imagen' src="media/images/boton__apertura__menu.png" alt="Abrir menú" />
+        <div className="encabezado__menu">
+            <button className="menu__botonDesplegable" onClick={abrirMenu}>
+                <img className='botonDesplegable__imagen' src="media/images/boton__apertura__menu.png" alt="Abrir menú" />
             </button>
             <ul className="menu__listado" style={{ display: menuVisible ? 'flex' : 'none' }}>
-                    <Link to="/novedades" className="listado__items">
+                <li>
+                    <Link to="/novedades" className="listado__items" onClick={cerrarMenu}>
                         NOVEDADES
                     </Link>
-                    <Link to="/nosotros" className="listado__items">
+                </li>
+                <li>
+                    <Link to="/nosotros" className="listado__items" onClick={cerrarMenu}>
                         SOBRE NOSOTRES
                     </Link>
-                    <Link to="/catalogo" className="listado__items">
+                </li>
+                <li>
+                    <Link to="/catalogo" className="listado__items" onClick={cerrarMenu}>
                         CATÁLOGO
                     </Link>
-                    <button className="listado__items oculto">
-                        <img onClick={cerrarMenu} className='items__boton' src="media/images/flecha_blanca_asc.png" alt="Abrir menú" />
+                </li>
+                <li>
+                    <button className="listado__items oculto" onClick={cerrarMenu}>
+                        <img className='items__boton' src="media/images/flecha_blanca_asc.png" alt="Cerrar menú" />
                     </button>
-                </ul>
-            </div>
-        </>
+                </li>
+            </ul>
+        </div>
     );
 };
 

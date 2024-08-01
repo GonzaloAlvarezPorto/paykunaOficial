@@ -2,6 +2,8 @@ import React from 'react'
 
 export const Nosotros = () => {
   return (
-    <div>Nosotros</div>
+    <main>
+      <h2 className='titulos'>Nosotros</h2>
+    </main>
   )
 }

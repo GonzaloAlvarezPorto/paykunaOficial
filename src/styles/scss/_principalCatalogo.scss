@@ -1,0 +1,28 @@
+.paginaPrincipal__catalogo {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    margin: 0 20px;
+    flex-wrap: wrap;
+
+    .catalogo__fichaProducto {
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 300px;
+        margin: 10px;
+
+        .fichaProducto__titulo{
+            color:white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .fichaProducto__descripcion{
+            color:yellow;
+            padding: 10px;
+            min-height: 150px;
+        }
+    }
+}

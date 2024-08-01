@@ -2,26 +2,26 @@
     display: flex;
     flex-direction: column;
     background-color: $colorFondoPrincipal;
-    
-    .contenedor__titulo {
+
+    .paginaPrincipal__contenedorTitulo {
         display: flex;
         flex-direction: column;
         justify-content: center;
 
-        .titulo__paginaPrincipal {
+        .contenedorTitulo__texto {
             color: white;
             text-align: center;
             padding: 2rem;
         }
     }
 
-    .contenedor__texto {
+    .paginaPrincipal__mensaje {
         display: flex;
         flex-direction: column;
         justify-content: center;
         margin-bottom: 2rem;
 
-        .texto__paginaPrincipal {
+        .mensaje__texto {
             color: white;
             text-align: left;
             padding: 0.5rem 2rem;
