@@ -1,0 +1,21 @@
+.contenedorBienvenida {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: changeBackgroundColor 6s ease-in-out forwards;
+    flex-direction: column;
+    
+    .mensajeDeEstado{
+        font-family: 'Monkey Island SCUMM', sans-serif;
+        margin-top: 3rem;
+        color: white;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .puertaBienvenida{
+        width: 200px;
+    }
+}
+

@@ -1,10 +1,21 @@
-@import "./scss/variables.scss";
+//General
+@import "./scss/_fuentes.scss";
+@import "./scss/_variables.scss";
 @import "./scss/_generales.scss";
+@import "./scss/_keyframes.scss";
 
-@import "./scss/_cabecera.scss";
-@import "./scss/_cabecera_query.scss";
-@import "./scss/_principal.scss";
-@import "./scss/_principalCatalogo.scss";
-@import "./scss/_compras.scss";
-@import "./scss/_compras_query.scss";
-@import "./scss/_pieDePagina.scss";
+
+//Header
+@import "./scss/aHeader/_cabecera.scss";
+@import "./scss/aHeader/_cabecera_query.scss";
+
+//Main
+@import "./scss/bMain/_principal.scss";
+@import "./scss/bMain/_principalCatalogo.scss";
+@import "./scss/bMain/_compras.scss";
+@import "./scss/bMain/_compras_query.scss";
+@import "./scss/bMain/principalBienvenida.scss";
+@import "./scss/bMain/principalBienvenida_query.scss";
+
+//Footer
+@import "./scss/cFooter/_pieDePagina.scss";

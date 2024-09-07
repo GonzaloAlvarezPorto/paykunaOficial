@@ -1,0 +1,13 @@
+@keyframes changeBackgroundColor {
+    0% {
+        background-color: $colorFondoBienvenida;
+    }
+
+    50%{
+        background-color: $segundoColorFondoBienvenida;
+    }
+
+    100% {
+        background-color: $colorFondoPrincipal;
+    }
+}

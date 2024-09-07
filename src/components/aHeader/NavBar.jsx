@@ -37,17 +37,17 @@ const NavBar = () => {
             </button>
             <ul className="menu__listado" style={{ display: menuVisible ? 'flex' : 'none' }}>
                 <li>
-                    <Link to="/novedades" className="listado__items" onClick={cerrarMenu}>
+                    <Link to="novedades" className="listado__items" onClick={cerrarMenu}>
                         NOVEDADES
                     </Link>
                 </li>
                 <li>
-                    <Link to="/nosotros" className="listado__items" onClick={cerrarMenu}>
+                    <Link to="nosotros" className="listado__items" onClick={cerrarMenu}>
                         SOBRE NOSOTRES
                     </Link>
                 </li>
                 <li>
-                    <Link to="/catalogo" className="listado__items" onClick={cerrarMenu}>
+                    <Link to="catalogo" className="listado__items" onClick={cerrarMenu}>
                         CATÁLOGO
                     </Link>
                 </li>
