@@ -8,14 +8,18 @@
     
     .mensajeDeEstado{
         font-family: 'Monkey Island SCUMM', sans-serif;
-        margin-top: 3rem;
         color: white;
         font-size: 25px;
         text-align: center;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        
     }
 
     .puertaBienvenida{
         width: 200px;
+        margin:1rem 3rem 1rem 0;
     }
 }
 
