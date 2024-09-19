@@ -8,57 +8,28 @@
         .redes__contenedores {
             margin: 0;
             padding: 4px;
-            
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 70%;
+
             .contenedores__enlace {
-                &:hover {
-                    color: white;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+
+                .enlace__texto {
+                    color: $colorTextoCabecera;
+                    margin: 0 10px;
+                    text-decoration: none;
                 }
-                
+
                 .enlace__imagen {
                     background-color: $colorTextoCabecera;
                     height: 40px;
                     border: 1px solid $colorTextoCabecera;
                     border-radius: 100px;
-
-                    &:hover {
-                        transition: 1s;
-                    }
-                }
-
-                .facebook {
-                    @extend .enlace__imagen;
-
-                    &:hover {
-                        border: 1px solid blue;
-                        background-color: blue;
-                    }
-                }
-
-                .whatsapp {
-                    @extend .enlace__imagen;
-
-                    &:hover {
-                        border: 1px solid rgb(78, 161, 23);
-                        background-color: rgb(78, 161, 23);
-                    }
-                }
-
-                .instagram {
-                    @extend .enlace__imagen;
-
-                    &:hover {
-                        border: 1px solid rgb(192, 42, 160);
-                        background-color: rgb(192, 42, 160);
-                    }
-                }
-
-                .gmail {
-                    @extend .enlace__imagen;
-
-                    &:hover {
-                        border: 1px solid rgb(255, 72, 0);
-                        background-color: rgb(255, 72, 0);
-                    }
                 }
             }
         }
@@ -70,10 +41,14 @@
         color: $colorTextoCabecera;
         text-align: center;
         padding: 0.7rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
 
-        &:hover {
-            color: $colorTextoCabeceraHover;
-            transition: 1s;
+        .derechos__imagen{
+            margin: 0 10px;
+            width: 25px;
         }
     }
 }

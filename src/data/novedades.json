@@ -1,0 +1,18 @@
+[
+    {
+        "producto":"Frutillas",
+        "descripcion":"Ya estamos en temporada, y ya las tenés acá, en Almacén Paykuna.",
+        "productoImagen":"/media/images/novedades/frutillas.jpg"
+    },
+    {
+        "producto":"Pollos",
+        "descripcion":"No te olvides de pedir tu pollo en el formulario.",
+        "productoImagen":"/media/images/novedades/pollos.jpg"
+    },
+    {
+        "producto":"Arándanos",
+        "descripcion":"Ya estamos en temporada, y ya los tenés acá, en Almacén Paykuna",
+        "productoImagen":"/media/images/novedades/arandanos.jpg"
+    }
+
+]

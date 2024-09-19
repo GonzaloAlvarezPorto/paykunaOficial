@@ -1,0 +1,37 @@
+.cuerpo__novedades {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    .contenedor__novedades {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+        width: 300px;
+        margin: 1rem;
+        text-align: center;
+        border-radius: 5px;
+        border: 1px solid $colorTextoCabecera;
+        background-color: $colorCabeceraHover;
+        
+
+        .novedades__titulo {
+            color: white;
+            width: 80%;
+            padding: 1rem;
+            text-decoration: underline;
+        }
+
+        .novedades__descripcion {
+            color: white;
+            width: 100%
+        }
+
+        .novedades__imagen {
+            height: 500px;
+            padding: 1rem;
+        }
+    }
+}

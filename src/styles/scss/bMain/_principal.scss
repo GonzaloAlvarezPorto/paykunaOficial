@@ -18,10 +18,10 @@
     .paginaPrincipal__mensaje {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        margin-bottom: 2rem;
-
+        justify-content: space-around;
+        
         .mensaje__texto {
+            margin: 0.5rem 0;
             color: white;
             text-align: left;
             padding: 0.5rem 2rem;
